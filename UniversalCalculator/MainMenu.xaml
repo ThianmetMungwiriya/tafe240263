@@ -19,7 +19,7 @@
 				<Button x:Name="mortagecalButton" Margin="50" FontSize="50" Width="470">Mortgage Calculator</Button>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
-				<Button x:Name="currencyButton" Margin="50" FontSize="50" Width="470">Currency Calculator</Button>
+				<Button x:Name="currencyButton" Margin="50" FontSize="50" Width="470" Click="currencyButton_Click">Currency Calculator</Button>
 				<Button x:Name="exitButton" Margin="50" FontSize="50" Width="470">Exit</Button>
             </StackPanel>
         </StackPanel>

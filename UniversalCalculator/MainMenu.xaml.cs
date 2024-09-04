@@ -26,5 +26,11 @@ namespace Calculator
 		{
 			this.InitializeComponent();
 		}
+
+		private void currencyButton_Click(object sender, RoutedEventArgs e)
+		{
+			currency currencyPage = new currency();
+			this.Content = currencyPage;
+		}
 	}
 }
