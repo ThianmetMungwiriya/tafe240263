@@ -20,7 +20,7 @@
             </StackPanel>
             <StackPanel Orientation="Horizontal">
 				<Button x:Name="currencyButton" Margin="50" FontSize="50" Width="470" Click="currencyButton_Click">Currency Calculator</Button>
-				<Button x:Name="tripButton"  Margin="50" FontSize="50" Width="470" Content="Trip Calculator"/>
+				<Button x:Name="tripButton"  Margin="50" FontSize="50" Width="470" Content="Trip Calculator" Click="tripButton_Click"/>
 			</StackPanel>
 			<Button x:Name="exitButton" Margin="50" FontSize="50" Width="470">Exit</Button>
 		</StackPanel>
