@@ -20,8 +20,9 @@
             </StackPanel>
             <StackPanel Orientation="Horizontal">
 				<Button x:Name="currencyButton" Margin="50" FontSize="50" Width="470" Click="currencyButton_Click">Currency Calculator</Button>
-				<Button x:Name="exitButton" Margin="50" FontSize="50" Width="470">Exit</Button>
-            </StackPanel>
-        </StackPanel>
+				<Button x:Name="tripButton"  Margin="50" FontSize="50" Width="470" Content="Trip Calculator"/>
+			</StackPanel>
+			<Button x:Name="exitButton" Margin="50" FontSize="50" Width="470">Exit</Button>
+		</StackPanel>
     </Grid>
 </Page>
