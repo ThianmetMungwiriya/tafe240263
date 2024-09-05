@@ -38,5 +38,11 @@ namespace Calculator
 			MainPage MainPagePage = new MainPage();
 			this.Content = MainPagePage;
 		}
+
+		private void currencyButton_Click(object sender, RoutedEventArgs e)
+		{
+			currency currencyPage = new currency();
+			this.Content = currencyPage;
+		}
 	}
 }
