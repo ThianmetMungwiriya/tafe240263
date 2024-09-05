@@ -26,5 +26,17 @@ namespace Calculator
 		{
 			this.InitializeComponent();
 		}
+
+		private void mortagecalButton_Click(object sender, RoutedEventArgs e)
+		{
+			Mortgage MortgagePage = new Mortgage();
+			this.Content = MortgagePage;
+		}
+
+		private void mathcalButton_Click(object sender, RoutedEventArgs e)
+		{
+			MainPage MainPagePage = new MainPage();
+			this.Content = MainPagePage;
+		}
 	}
 }

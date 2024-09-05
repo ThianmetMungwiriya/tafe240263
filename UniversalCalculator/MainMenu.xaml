@@ -15,8 +15,8 @@
                 <Image Source="Assets/abacus.PNG" Height="152" Width="189" />
             </StackPanel>
             <StackPanel Orientation="Horizontal">
-                <Button x:Name="mathcalButton" Margin="50" FontSize="50" Width="470">Math Calculator</Button>
-				<Button x:Name="mortagecalButton" Margin="50" FontSize="50" Width="470">Mortgage Calculator</Button>
+                <Button x:Name="mathcalButton" Margin="50" FontSize="50" Width="470" Click="mathcalButton_Click">Math Calculator</Button>
+				<Button x:Name="mortagecalButton" Margin="50" FontSize="50" Width="470" Click="mortagecalButton_Click">Mortgage Calculator</Button>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
 				<Button x:Name="currencyButton" Margin="50" FontSize="50" Width="470">Currency Calculator</Button>

@@ -121,5 +121,11 @@ namespace Calculator
 			monthlyrepaymentTextBox.Text = repayment.ToString();
 
 		}
+
+		private void exitbutton_Click(object sender, RoutedEventArgs e)
+		{
+			MainMenu MainMenuPage = new MainMenu();
+			this.Content = MainMenuPage;
+		}
 	}
 }
